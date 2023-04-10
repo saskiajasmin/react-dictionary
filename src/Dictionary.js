@@ -14,7 +14,7 @@ export default function Dictionary() {
     alert(`Searching for ${keyword} definition`);
   }
 
-  let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_us/${keyword}`;
+  let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
   axios.get(apiUrl).then(handleResponse);
 
   function handleKeywordChange(event) {
