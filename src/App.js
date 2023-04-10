@@ -9,7 +9,16 @@ function App() {
         <Dictionary />
       </main>
       <footer className="text-center">
-        <small>Open-Source Code @GitHub</small>
+        <small>
+          Open-Source Code{" "}
+          <a
+            href="https://github.com/saskiajasmin/react-dictionary"
+            target="_blank"
+            rel="noreferrer"
+            alt="GitHub">
+            @GitHub
+          </a>
+        </small>
       </footer>
     </div>
   );
