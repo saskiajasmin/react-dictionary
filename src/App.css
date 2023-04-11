@@ -1,0 +1,18 @@
+.panel {
+  text-align: center;
+  margin: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 1px solid rgb(79, 143, 39);
+  border-radius: 4px;
+}
+
+footer a {
+  color: rgb(79, 143, 39);
+  text-decoration: none;
+}
+
+footer {
+  margin: 40px;
+  padding: 30px;
+}
