@@ -1,0 +1,27 @@
+.Dictionary h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Dictionary section {
+  background: rgb(192, 210, 192);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 80px;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 10px;
+  color: #333;
+  border: 1px solid #dddd;
+}
+.Dictionary input:focus {
+  outline: none;
+}
+
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+}
